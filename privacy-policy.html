@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="How TimeLedger handles your information, including account, time-tracking and synchronisation data.">
+<title>TimeLedger Privacy Policy</title>
+<style>
+  :root { --bg:#f6fbfc; --card:#ffffff; --ink:#20374a; --muted:#51697a; --accent:#2a7f7a; --soft:#d9f3f2; --line:#cfe3e4; --warn:#fff6dd; --warnline:#e6c96b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1b24; --card:#16262f; --ink:#e8f3f4; --muted:#a3b9c2; --accent:#7fd3cd; --soft:#1c3340; --line:#27414d; --warn:#3a3318; --warnline:#8a7a2a; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; overflow-wrap: anywhere; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 8px 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; line-height: 1.3; }
+  p, li { color: var(--ink); }
+  .lead { color: var(--muted); margin-top: 0; }
+  .meta { color: var(--muted); font-size: .95rem; margin: 12px 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin: 16px 0; }
+  ol, ul { padding-left: 1.3rem; }
+  li { margin: 6px 0; }
+  .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 4px 12px; margin: 16px 0; }
+  table { width: 100%; min-width: 480px; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  th { color: var(--muted); font-weight: 600; }
+  .note { background: var(--warn); border: 1px solid var(--warnline); border-radius: 12px; padding: 10px 14px; }
+  .owner { background: var(--soft); border-radius: 6px; padding: 0 6px; font-weight: 600; }
+  nav.toc { font-size: .95rem; }
+  nav.toc ol { columns: 2 220px; margin: 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="lead">TimeLedger</p>
+  <h1>TimeLedger Privacy Policy</h1>
+  <p class="lead">What the app handles, why, where it is stored and how you can delete it.</p>
+
+  <p class="meta">Effective date: 25 November 2026<br>Last updated: 25 November 2026</p>
+
+  <nav class="card toc" aria-label="Contents">
+    <ol>
+      <li><a href="#who">Who we are</a></li>
+      <li><a href="#information">Information the app handles</a></li>
+      <li><a href="#why">Why we use it</a></li>
+      <li><a href="#device">Storage on your device</a></li>
+      <li><a href="#sync">Cloud synchronisation</a></li>
+      <li><a href="#providers">Service providers</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#retention">How long we keep information</a></li>
+      <li><a href="#deletion">Deleting your account and data</a></li>
+      <li><a href="#rights">Your choices and rights</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#changes">Changes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="who">1. Who we are</h2>
+  <p>TimeLedger ("the app") is a personal time-tracking app for Android.</p>
+  <div class="card">
+    <p><strong>Controller / developer:</strong> Rishvi Ltd</p>
+    <p><strong>Contact for privacy questions and requests:</strong> <a href="mailto:support@rishvi.co.uk">support@rishvi.co.uk</a></p>
+  </div>
+
+  <h2 id="information">2. Information the app handles</h2>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Information</th><th>When</th><th>Source</th></tr>
+      <tr><td>Email address</td><td>You create an account with email, or sign in with Google</td><td>You / Google</td></tr>
+      <tr><td>Password</td><td>You create an email account. It is sent to our authentication provider and is not stored in the app or readable by us in plain text</td><td>You</td></tr>
+      <tr><td>Display name</td><td>You enter it at sign-up or in Profile, or it comes from your Google account</td><td>You / Google</td></tr>
+      <tr><td>Google account details</td><td>If you use Google Sign-In: the app obtains an ID token, and your Google name, email and profile-picture link may be kept in your account's metadata</td><td>Google</td></tr>
+      <tr><td>Profile photo (optional)</td><td>You choose a photo with Android's system picker. The app does not request storage or camera permission</td><td>You</td></tr>
+      <tr><td>Activities and categories</td><td>You create them (name, icon, colour, category)</td><td>You</td></tr>
+      <tr><td>Time records</td><td>Sessions (start, end, tracked and paused time, whether recorded by timer or added manually) and pauses</td><td>You</td></tr>
+      <tr><td>Goals and plans</td><td>Daily and weekly goals, daily target, planned blocks with optional notes</td><td>You</td></tr>
+      <tr><td>Preferences</td><td>Week start day, daily target</td><td>You</td></tr>
+      <tr><td>Device settings</td><td>Theme, time format and motion preference. These stay on your phone and are not uploaded</td><td>You</td></tr>
+      <tr><td>Time zone offset</td><td>Stored with each session so reports can show correct local times</td><td>Your device</td></tr>
+    </table>
+  </div>
+  <p>The app does <strong>not</strong> use advertising, analytics or crash-reporting services, and does not access your location, contacts, microphone, camera or advertising ID.</p>
+
+  <h2 id="why">3. Why we use it</h2>
+  <ul>
+    <li>To let you sign in and keep your data tied to your account.</li>
+    <li>To provide time tracking, goals, plans, timeline, insights and reports.</li>
+    <li>To keep your data on your devices in sync.</li>
+    <li>To send you account emails (sign-up confirmation and password-recovery codes).</li>
+  </ul>
+  <p>We do not sell your information and the app contains no advertising.</p>
+
+  <h2 id="device">4. Storage on your device</h2>
+  <p>Your activities, sessions, goals and plans are stored in a database on your phone, separately for each account. The app works offline. The local database is not additionally encrypted by the app; it relies on Android's app sandbox. Reports you export (PDF/CSV) are created on your phone and only leave it if you share them. Android backup and device-to-device transfer are turned off for this app, so this data is not copied to Google backups or to a new phone by Android.</p>
+
+  <h2 id="sync">5. Cloud synchronisation</h2>
+  <p>When you are signed in and online, your account data is uploaded to our backend, which is hosted on <strong>Supabase</strong> (database, authentication and file storage). Data is sent over HTTPS. Database access is restricted per user with row-level security, and your profile photo is stored in a private storage area that only your account can read. If the same item is changed on two devices, the app shows both and you choose which to keep.</p>
+
+  <h2 id="providers">6. Service providers</h2>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Provider</th><th>Role</th><th>Data it processes</th></tr>
+      <tr><td>Supabase</td><td>Authentication, database, file storage, server function for account deletion</td><td>Everything in section 2 that is synchronised</td></tr>
+      <tr><td>Brevo</td><td>Sends account emails for us (SMTP)</td><td>Your email address and the content of the confirmation or recovery email</td></tr>
+      <tr><td>Google</td><td>Google Sign-In, if you choose it</td><td>Your Google account sign-in; see Google's privacy policy</td></tr>
+    </table>
+  </div>
+  <p>We do not share your data with anyone else.</p>
+
+  <h2 id="security">7. Security</h2>
+  <ul>
+    <li>Connections to the backend use HTTPS.</li>
+    <li>The app only contains a public (publishable) backend key; no administrative keys are in the app.</li>
+    <li>Each user's data is isolated on the device and on the server.</li>
+    <li>Account deletion is performed by a server function that checks you are signed in and can only delete your own account.</li>
+  </ul>
+  <p>No system is perfectly secure, and we cannot guarantee absolute security.</p>
+
+  <h2 id="retention">8. How long we keep information</h2>
+  <ul>
+    <li>While your account exists, your data is kept so the app can work and sync.</li>
+    <li>When you delete your account, your profile photo, profile, preferences, activities, categories, sessions, pauses, goals, plans and sync-device records are removed from the backend in the same operation.</li>
+    <li>Our service providers (Supabase and Brevo) may keep backups, logs and email delivery records for limited periods under their own policies.</li>
+    <li>Files you exported and saved or shared outside the app are under your control and are not deleted by account deletion.</li>
+  </ul>
+
+  <h2 id="deletion">9. Deleting your account and data</h2>
+  <ul>
+    <li><strong>In the app:</strong> Settings &rarr; Delete account. Email accounts confirm with their password; Google accounts confirm with Google. The data on the phone is removed after the server confirms the deletion.</li>
+    <li><strong>Without the app:</strong> see the <a href="account-deletion.html">account-deletion page</a> for how to request deletion.</li>
+  </ul>
+
+  <h2 id="rights">10. Your choices and rights</h2>
+  <p>You can view and correct your information in the app, delete sessions, activities and goals, and delete your account. Depending on where you live you may have additional rights (access, correction, deletion, portability, objection, complaint to a regulator). To exercise them contact <a href="mailto:support@rishvi.co.uk">support@rishvi.co.uk</a>.</p>
+
+  <h2 id="children">11. Children</h2>
+  <p>TimeLedger is not directed at children.</p>
+
+  <h2 id="changes">12. Changes</h2>
+  <p>We will update this page when the app's data handling changes and change the date above.</p>
+
+  <h2 id="contact">13. Contact</h2>
+  <p><a href="mailto:support@rishvi.co.uk">support@rishvi.co.uk</a></p>
+
+  <footer>
+    <p>TimeLedger &middot; Rishvi Ltd &middot; <a href="account-deletion.html">Delete your account</a></p>
+  </footer>
+</main>
+</body>
+</html>
